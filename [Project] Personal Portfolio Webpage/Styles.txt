@@ -51,18 +51,30 @@ main {
   flex-direction: row;
   justify-content: flex-end; 
   align-items: center;
+  overflow: hidden;
 }
 
 #nav-link a {
-  margin: 0 2vw;
-  color: var(--sub-color1);
+  padding: 2vw;
+  color: var(--web-color2);
   font-size: 3vh;
   font-weight: bold;
   text-decoration: none;
 }
 
+#nav-link a:hover {
+  background-color: var(--sub-color1);
+  opacity: 0.5;
+  transform: translate(0, 1vh);
+  transition: 0.2s ease;
+}
+
+#nav-link a:active {
+  color: var(--web-color2);
+}
+
 #nav-link a {
-  color: var();
+  display: block;
 }
 
 .sections {
@@ -129,12 +141,32 @@ main {
  overflow: hidden;
 }
 
-
 #p-title{
  width: 40%;
  height: 100%;
- background-color: var(--main-color1);
- 
+ background-color: var(--main-color1); 
+}
+
+#p-title h2, #p-title p {
+ position: relative;
+ left: 2vw;
+ width: 80%;
+}
+
+#p-title a {
+ background-color: var(--sub-color1);
+ color: var(--web-color2);
+ font-weight: bold;
+ text-decoration: none;
+ position: absolute;
+ bottom: 20%;
+ left: 30%;
+ padding: 2vh 2vw;
+}
+
+#p-title a:hover {
+  background-color: var(--sub-color2);
+ color: var(--web-color1);
 }
 
 #p-title::after {
@@ -190,8 +222,11 @@ main {
   width: 100%;
   position: absolute;
   top: 10%;
-  left: 20%;
   transform: rotate(90deg);
+}
+
+.project-tile:active {
+  background-color: var(--sub-color1);
 }
 
 #profile {
