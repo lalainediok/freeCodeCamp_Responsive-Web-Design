@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Lalaine Diok Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  </head>
+  <body>
+    <header>
+       <div id="navbar">
+        <div id="logo">
+        </div>
+        <div id="nav-link">
+          <a href="#welcome-section">About</a>
+          <a href="#projects">Works</a>
+          <a href="#profile">Contact</a>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="welcome-section" class="sections">
+        <div id="intro-text">
+          <p id="Grt">Hello, I'm</p>
+          <h1>Lalaine Diok</h1>
+          <p id=desc-title>Front-End Developer</p>
+          <p id=desc-whole>Currently a 3rd Year student aiming to improve and expand her skillset in the world of Web Development. Creativity, Originality, and functionality is what I aim in my projects, I hope to help and guide one in expressing themselves through the displays of technology.</p>
+        </div>
+        <div id="intro-pics">
+          <img src ="https://cdn.discordapp.com/attachments/852204126795202630/1063806126178697286/Me_Refined.png" alt="Me casually"/>
+        </div>
+      </section>
+      <section id="projects" class="sections">
+        <div class="project-tile" id="p-title">
+          <h2>My Projects</h2>
+          <p> These are the projects I made within the freeCodeCamp <strong>Responsive Web Design</strong> Course.</p>
+          <a href="https://codepen.io/lalainediok">Visit CodePen Profile</a> 
+        </div>
+        <div class="project-tile">
+          <img class="proj-img" src="https://cdn.discordapp.com/attachments/852204126795202630/1064238410094608414/1.png" alt="Lea Seydoux Tribute Page" />
+          <a href="https://codepen.io/lalainediok/pen/jOwKJOd">
+          <div class="overlay">
+            <p>Lea Seydoux Tribute Project</p> 
+          </div>
+          </a>
+        </div>
+        <div class="project-tile">
+          <img class="proj-img" src="https://cdn.discordapp.com/attachments/852204126795202630/1064238409897496717/2.png" alt="RTU Survey Form" />
+          <a href="https://codepen.io/lalainediok/pen/YzQRjQX">
+          <div class="overlay"> 
+            <p>RTU Survey Form</p>
+          </div>
+          </a>
+        </div>
+        <div class="project-tile">
+          <img class="proj-img" src="https://cdn.discordapp.com/attachments/852204126795202630/1064238409675194378/3.png" alt="HTML & CSS Technical Doc" />
+          <a href="https://codepen.io/lalainediok/pen/RwBaovZ">
+          <div class="overlay"> 
+            <p>Technical Documentation Page</p>
+          </div>
+          </a>
+        </div>
+        <div class="project-tile">
+          <img class="proj-img" src="https://cdn.discordapp.com/attachments/852204126795202630/1064238409452879933/4.png" alt="Varsity Jacket Product Page" />
+          <a href="https://codepen.io/lalainediok/pen/YzxmLaX">
+          <div class="overlay"> 
+            <p>Product Landing Page</p>
+          </div>
+          </a>
+        </div>
+      </section>
+      <section id="profile" class="sections">
+        <div id="contact-quote"><h2>Write some code with me!</h2><p>AContact me with one of this socials...</p></div>
+        <div id="contact-links">
+          <a href="https://www.linkedin.com/in/lalaine-diok/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://github.com/lalainediok" target="_blank">
+            <i class="fa-brands fa-github"></i> GitHub  
+          </a>
+          <a href="https://www.facebook.com/lalaine.diok" target="_blank">
+            <i class="fa-brands fa-facebook"></i> Facebook
+          </a>
+          <a href="lalainel.diok@gmail.com" target="_blank">
+            <i class="fa-solid fa-envelope"></i> Email
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div><p>This is just a sample project. All Project are all beginner level.</p></div>
+      <div><p>@created for freeCodeCamp</p></div>
+    </footer>
+  </body>  
+</html>

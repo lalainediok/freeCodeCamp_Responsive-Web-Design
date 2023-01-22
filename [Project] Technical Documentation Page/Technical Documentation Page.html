@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>HTML and CSS Documentation Page</title>
+  </head>
+  <body>
+    <!--NAVIGATION COLUMN-->
+    <nav id="navbar">
+      <header>
+        <h1>HTML & CSS</h1> 
+        <h6>DOCUMENTATION</h6>
+      </header>
+        <a class="nav-link" href="#HTML_and_CSS">HTML and CSS</a>
+        <a class="nav-link" href="#What_is_HTML?">What is HTML?</a>
+        <a class="nav-link" href="#What_is_CSS?">What is CSS?</a>
+        <a class="nav-link" href="#What_is_WebFonts?">What is WebFonts?</a>
+        <a class="nav-link" href="#Difference_of_HTML_&_CSS">Difference of HTML & CSS</a>
+        <a class="nav-link" href="#The_Conclusion">The Conclusion</a>
+    </nav>
+    <div id="image_header">
+        <img src="https://scontent.fmnl5-2.fna.fbcdn.net/v/t1.6435-9/183056435_1687570708117124_4542630565247756730_n.png?_nc_cat=109&ccb=1-7&_nc_sid=8631f5&_nc_ohc=G43bXVGX7WUAX_zWhRS&_nc_ht=scontent.fmnl5-2.fna&oh=00_AfBVYpbvzYaChwSXU9XZXs5pa6kp2kuKWonHjfYNhSikrg&oe=63D4DF88" alt="Learn HTML and CSS"/>
+      </div> 
+    <main id="main-doc">   
+      <!--SECTION [1]-->
+      <section id="HTML_and_CSS" class="main-section">  
+        <header>HTML and CSS</header>
+        <p>HTML (the Hypertext Markup Language) and CSS (Cascading Style Sheets) are two of the core technologies for building Web pages. HTML provides the structure of the page, CSS the (visual and aural) layout, for a variety of devices. Along with graphics and scripting, HTML and CSS are the basis of building Web pages and Web Applications.</p>
+        <p>If you’re thinking of building a website, then you’ll almost certainly have come across the acronyms HTML and CSS. These two essential tools form some of the foundations of any webpage. However, although they’re often used in conjunction with each other, they both serve very different purposes when it comes to web coding.</p>
+        <p>The key differences lie in their implementation, ease of use, their various features, and how they are structured, but at the end of the day, both HTML and CSS are the keys to unlocking how the World Wide Web works. Let’s dive into the details of both HTML and CSS, what they’re used for, and how to learn HTML and CSS. </p>
+      </section>
+      <!--SECTION [2]-->
+      <section id="What_is_HTML?" class="main-section">
+        <header>What is HTML?</header>
+        <p>Here are a few examples of HTML tags:</p>
+          <p id="code_p">HTML:</p><code>&lt;HTML&gt; &lt;/HTML&gt</code>
+          <br/>
+          <p id="code_p">Headers:</p><code>&lt;h1&gt; &lt;/h1&gt; &lt;h2&gt; &lt;/h2&gt; &lt;h3&gt; &lt;/h3&gt; ...</code>
+          <br/>
+          <p id="code_p">Image:</p><code>&lt;img /&gt;</code>
+          <br/>
+          <p id="code_p">Code:</p><code>&lt;code&gt; &lt;/code&gt;</code>
+          <br/>
+          <p id="code_p">Form:</p><code>&lt;form&gt; &lt;/form&gt;</code>
+
+        <p>HTML is supported by every single browser and is established on pretty much every webpage in existence. You don’t need any licenses, you don’t need to pay for it, and it can be pretty easy to learn and code. If we can compare a webpage to the human body, then HTML is the bones of the body.</p> 
+        <p>HTML is the language for describing the structure of Web pages. HTML gives authors the means to:</p>
+        <ul>
+          <li>Publish online documents with headings, text, tables, lists, photos, etc.</li>
+          <li>Retrieve online information via hypertext links, at the click of a button.</li>
+          <li>Design forms for conducting transactions with remote services, for use in searching for information, making reservations, ordering products, etc.</li>
+          <li>Include spread-sheets, video clips, sound clips, and other applications directly in their documents.</li>
+        </ul> 
+      </section>
+      <!--SECTION [3]-->
+      <section id="What_is_CSS?" class="main-section">
+        <header>What is CSS?</header>
+        <p>Here are examples of CSS script:</p>
+          <pre>
+            HTML {
+              background-color: black;
+              color: white;
+            }
+            p {
+              color: yellow;
+              padding: 4vh
+            }
+          </pre>
+
+        <p>CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. </p>
+        <p>CSS is independent of HTML and can be used with any XML-based markup language. The separation of HTML from CSS makes it easier to maintain sites, share style sheets across pages, and tailor pages to different environments. This is referred to as the separation of structure (or: content) from presentation.</p>  
+      </section>
+      <!--SECTION [4]-->
+      <section id="What_is_WebFonts?" class="main-section">
+        <header>What is WebFonts?</header>
+        <code></code>
+        <p>WebFonts is a technology that enables people to use fonts on demand over the Web without requiring installation in the operating system. W3C has experience in downloadable fonts through HTML, CSS2, and SVG. Until recently, downloadable fonts have not been common on the Web due to the lack of an interoperable font format. The WebFonts effort plans to address that through the creation of an industry-supported, open font format for the Web (called "WOFF").</p>  
+      </section>
+      <!--SECTION [5]-->
+      <section id="Difference_of_HTML_&_CSS" class="main-section">
+        <header>Difference of HTML & CSS</header>
+        <code></code>
+        <p>Many people believe that HTML and CSS are the same, but they’re actually both quite distinct languages. While they are often used together in coding and Web design, they can both be used separately too, and both have a myriad of different applications. Let’s take a look at some of the key differences between HTML and CSS.</p>
+        <ul>
+          <li>HTML defines the content and the structure of a webpage, whereas CSS translates the display and the design of the HTML elements</li>
+          <li>As a result, an HTML can incorporate CSS code in its files, but CSS cannot contain HTML in its sheets</li>
+          <li>HTML is one set ‘type’ or ‘method’, whereas, depending on requirement, CSS can either be internal or external</li>
+          <li>HTML isn’t used for presentation or visualisation, whereas CSS is</li>
+          <li>When it comes to writing the language, HTML has quite a clear and easy-to-understand syntax, whereas CSS can get a little bit more complicated and confusing</li>
+          <li>HTML uses ‘tags’ on either side of the content, whereas CSS uses ‘selectors’ that are followed by a declaration block</li>
+          <li>The code used by HTML is much larger than the one used by CSS, giving CSS a lesser webpage loading time</li>
+          <li>The primary function of HTML is to create web pages, whereas CSS is used to control the layout and the style of these webpages</li>
+        </ul> 
+      </section>
+      <!--SECTION [6]-->
+      <section id="The_Conclusion" class="main-section">
+        <header>The Conclusion</header>
+        <code></code>
+        <p>Any role that requires coding will definitely want a candidate with at least some experience with HTML and CSS, and the first step to learning HTML and CSS is actually knowing what they are and what they are used for. As we’ve seen, these two coding languages are the building blocks of any web page and are at the heart of web development.</p>
+        <p>We’ve got a whole range of courses that tap into the different uses of HTML and CSS, particularly in a web or software development domain, which will tell you how to make the most out of HTML and CSS. Forge your coding language path today, and find your future career. </p>
+    </main>
+  </body>
+
+</html>
