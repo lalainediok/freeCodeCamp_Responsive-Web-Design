@@ -44,7 +44,7 @@ main {
 }
 
 #nav-link {
-  width: 40%;
+  width: 50%;
   height: 100%;
   font-family: Electrolize, Trebuchet MS;
   display: flex; 
@@ -153,7 +153,7 @@ main {
  width: 80%;
 }
 
-#p-title a {
+#profile-link {
  background-color: var(--sub-color1);
  color: var(--web-color2);
  font-weight: bold;
@@ -164,7 +164,7 @@ main {
  padding: 2vh 2vw;
 }
 
-#p-title a:hover {
+#profile-link:hover {
   background-color: var(--sub-color2);
  color: var(--web-color1);
 }
@@ -282,3 +282,17 @@ footer {
   justify-content: space-around;
 }
 
+/* Mobile Screen */
+@media only screen and (max-width: 600px) {  
+  html {
+    
+  }
+  #welcome-section {
+   display: flex;
+   flex-direction: column; 
+   justify-content: space-between;
+  } 
+  #projects {
+    
+  } 
+ } 
