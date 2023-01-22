@@ -72,7 +72,10 @@
         </div>
       </section>
       <section id="profile" class="sections">
-        <div id="contact-quote"><h2>Write some code with me!</h2><p>AContact me with one of this socials...</p></div>
+        <div id="contact-quote">
+          <h2>Write some code with me!</h2>
+          <p>Contact me with one of this socials...</p>
+        </div>
         <div id="contact-links">
           <a href="https://www.linkedin.com/in/lalaine-diok/" target="_blank">
             <i class="fa-brands fa-linkedin"></i> LinkedIn
