@@ -36,7 +36,7 @@
         <div class="project-tile" id="p-title">
           <h2>My Projects</h2>
           <p> These are the projects I made within the freeCodeCamp <strong>Responsive Web Design</strong> Course.</p>
-          <a href="https://codepen.io/lalainediok">Visit CodePen Profile</a> 
+          <a id="profile-link" href="https://codepen.io/lalainediok" target="_blank">Visit CodePen Profile</a> 
         </div>
         <div class="project-tile">
           <img class="proj-img" src="https://cdn.discordapp.com/attachments/852204126795202630/1064238410094608414/1.png" alt="Lea Seydoux Tribute Page" />
