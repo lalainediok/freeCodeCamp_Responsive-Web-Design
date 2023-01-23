@@ -24,6 +24,8 @@ html, body {
 
 main {
   margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
 }
 
 #navbar {
@@ -100,7 +102,7 @@ main {
 #intro-text h1 {
   color: var(--sub-color1);
   font-family: Electrolize, Trebuchet MS;
-  font-size: 4rem;
+  font-size: 4em;
 }
 
 #intro-text p:not(#desc-whole) {
@@ -221,7 +223,7 @@ main {
   color: var(--web-color1);
   width: 100%;
   position: absolute;
-  top: 10%;
+  top: 30%;
   transform: rotate(90deg);
 }
 
@@ -284,15 +286,63 @@ footer {
 
 /* Mobile Screen */
 @media only screen and (max-width: 600px) {  
-  html {
+  * {
     
   }
+
+  main section {
+    position: relative;
+  }
   #welcome-section {
-   display: flex;
+   height: 120vh;
+   display: flex; 
    flex-direction: column; 
-   justify-content: space-between;
+   justify-content:  space-between;
   } 
-  #projects {
-    
+  
+  #intro-text {
+  width: 80vw;
+  line-height: 0.05;
+  }
+ 
+  #intro-pics{
+    margin: 0 auto; 
+  }
+  
+  #intro-pics img {
+  top: 40%;
+  overflow: hidden;
+  }
+  
+  #projects{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+  }  
+
+  #p-title {
+   width: 100vw;
+  }
+ 
+  #p-title:after {
+   position: absolute;
+   top: 0;
+   left: 90%;
   } 
- } 
+   
+  .project-tile {
+   width: 40%;
+   position: table;
+   padding: 1vh 1vw;
+   margin: 0 0;
+   overflow: hidden;
+  }
+
+  .overlay {
+   width: intial; 
+  } 
+  
+  #profile {
+   display: block;
+  }
+} 
